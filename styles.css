@@ -1,7 +1,10 @@
 /*  your css code here. If applicable */
-span:first-child{
+div{
+	display:inline-block;
+}
+div::before{
                 color: red;
             }
-            span:last-child{
+            div::after{
                 color: red;
             }
