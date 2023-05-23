@@ -1,10 +1,12 @@
 /*  your css code here. If applicable */
 div{
-	display:inline-block;
-}
-div::before{
+                display: inline-block;
+            }
+            div::before{
+                content: "Before Element";
                 color: red;
             }
             div::after{
+                content: "After Element";
                 color: red;
             }
